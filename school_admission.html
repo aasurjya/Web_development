@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Admission</title>
+</head>
+    <body>
+        <h3>Your Details:</h3>
+        <form action="submit.html" method="get">
+            <label for="Username">Full_Name</label>
+            <input type="text" id="username" name="username"><br>
+            <label for="Gurdian Name">Gurdian Name</label>
+            <input type="text" id="Gurdian Name" name="Gurdian Name"><br>
+            <label for="Address">Address</label>
+            <input type="text" id="Address" name="Address"><br>
+            <label for="Birth Date">Birth Date</label>
+            <input type="date" id="Birth Date" name="Birth Date"><br>
+            <label for="Gurdian PhoneNumber">Gurdian PhoneNumber</label>
+            <input type="number" id="Gurdian PhoneNumber" name="Gurdian PhoneNumber" placeholder=" 10 digit phone number" pattern="[0-9]{4}-[0-9]{4}-[0-9]{2}" maxlength="10"><br>
+            <label for="Previous School Name">Previous School Name</label>
+            <input type="text" id="Previous School Name" name="Previous School Name"><br> 
+            <label for="Reason of Leaving Previous School">Reason of Leaving Previous School</label>
+            <input type="text" id="Reason of Leaving Previous School" name="Reason of Leaving Previous School"><br>
+            <label for="marksheet">Upload your previous class marksheet</label>
+            <input type="file" id="marksheet" name="marksheet" accept="image/png, image/jpeg">
+
+            <!__ this is comment 
+                    this not working__>
+
+            <fieldset>
+                <legend>Select the School Name for Admission:</legend>
+                <div>
+                    <label for="Monford English Academy">Monford English Academy</label>
+                    <input type="radio" id="Monford English Academy" name="Monford English Academy" value="Monford English Academy">
+                </div>
+                <div>
+                    <label for="Little Kingdom School">Little Kingdom School</label>
+                    <input type="radio" checked="checked" id="Little Kingdom School" name="Little Kingdom School" value="Little Kingdom School">
+                </div>
+                <div>
+                    <label for="Monford English Academy">Holy Child English School</label>
+                    <input type="radio" id="Holy Child English School" name="Holy Child English School" value="Holy Child English School"> 
+                </div>
+                <div>
+                    <label for="Tiloi Gyan Bonti School">Tiloi Gyan Bonti School</label>
+                    <input type="radio" id="Tiloi Gyan Bonti School" name="Tiloi Gyan Bonti School" value="Tiloi Gyan Bonti School">
+                </div>
+            </fieldset>
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>
