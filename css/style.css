@@ -1,0 +1,57 @@
+body{
+    background-color: #d0e2f5;
+  }
+  
+  hr{
+    background-color: white;
+    border-style: hidden;
+    height: 2px;
+    width: 20%;
+  }
+
+  h1{
+    color: rgb(2, 111, 126);
+    text-align: center;  
+    }
+
+  p{
+    text-align: center;
+    color: rgb(3, 99, 99);
+    }
+
+  b{
+    color: black;
+    font-style: "Brush Script MT";
+    text-align: center;
+  }
+
+  h4{
+    font-family: "Georgia";
+    text-align: center;
+  }
+
+  a { 
+    text-align: center;
+    color: rgb(190, 38, 122);
+  }
+  .footer{
+    background-color: rgb(187, 238, 187);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 100px;
+  }
+  .p1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+.mypassport{
+  display: block;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 10;
+}
