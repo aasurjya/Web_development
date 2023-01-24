@@ -4,4 +4,5 @@ Links for the website: https://aasurjya.github.io/my_website/
 
 2nd phase of the website:
 after adding CSS
-![image](https://user-images.githubusercontent.com/44926849/214242586-a8c632ac-8333-4c5e-8860-f3c82bd22c59.png)
+![image](https://user-images.githubusercontent.com/44926849/214242762-325c8ba4-63fa-4bf9-a3e9-f8468f129b25.png)
+
