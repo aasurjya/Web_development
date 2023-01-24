@@ -4,7 +4,8 @@ Links for the website: https://aasurjya.github.io/my_website/
 
 1st phase of the website:
 HTML only
-![image](https://user-images.githubusercontent.com/44926849/214322582-b42f7b2c-eb0c-42ab-8bd5-25f83cd6e091.png)
+![image](https://user-images.githubusercontent.com/44926849/214322841-6b20077d-14fc-46c5-b1e6-031d15eca2e6.png)
+
 
 
 2nd phase of the website:
