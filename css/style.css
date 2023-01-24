@@ -1,22 +1,24 @@
 body{
-    background-color: #d0e2f5;
+    background: linear-gradient( #e4ecf8, #91c6e4);
+    text-align: center;
+    font-family: serif;
   }
   
   hr{
-    background-color: white;
+    background-color: #006dfc;
     border-style: hidden;
     height: 2px;
     width: 20%;
   }
 
   h1{
-    color: rgb(2, 111, 126);
+    color: rgba(2, 112, 126, 0.966);
     text-align: center;  
     }
 
   p{
     text-align: center;
-    color: rgb(3, 99, 99);
+    color: rgb(23, 98, 100);
     }
 
   b{
@@ -35,7 +37,7 @@ body{
     color: rgb(190, 38, 122);
   }
   .footer{
-    background-color: rgb(187, 238, 187);
+    background-color: rgb(204, 215, 243);
     /* text-align: center; */
     display: flex;
     justify-content: center;
@@ -49,9 +51,40 @@ body{
     gap: 30px;
   }
 .mypassport{
+  width: 400px;
+  position: relative;
   display: block;
-  margin-left: 100px;
-  margin-right: auto;
+  margin-left: 30px;
   margin-top: 50px;
-  width: 10;
+  border-radius: 200px;
 }
+#cloud_vector{
+  width: 100px;
+  position: relative;
+  display: inline;
+  left: 53px;
+  bottom: 450px;
+
+
+}
+.name_class{
+  position: relative;
+  left: 260px;
+  bottom: 200px;
+  display: inline;
+  font-size: 40px;
+  
+}
+
+/* .name_font{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+#vector_image{
+  width: 100px;
+}
+
+.name_font{
+  font-family: 'Cedarville Cursive';
+}
+
